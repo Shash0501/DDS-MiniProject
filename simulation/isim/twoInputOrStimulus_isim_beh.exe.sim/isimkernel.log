@@ -1,0 +1,29 @@
+Command line:
+   twoInputOrStimulus_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52695
+
+Thu Dec 16 23:17:45 2021
+
+
+ Elaboration Time: 0 sec
+
+ Current Memory Usage: 184.246 Meg
+
+ Total Signals          : 17
+ Total Nets             : 16
+ Total Signal Drivers   : 8
+ Total Blocks           : 5
+ Total Primitive Blocks : 4
+ Total Processes        : 13
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 133
+Total Line Count : 76
+
+ Total Simulation Time: 0.01 sec
+
+ Current Memory Usage: 259.748 Meg
+
+Thu Dec 16 23:17:51 2021
+

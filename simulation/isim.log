@@ -1,0 +1,28 @@
+ISim log file
+Running: /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.wdb 
+ISim P.20131013 (signature 0xfbc00daa)
+WARNING: A WEBPACK license was found.
+WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
+WARNING: ISim will run in Lite mode. Please refer to the ISim documentation for more information on the differences between the Lite and the Full version.
+This is a Lite version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+
+Actual I/Os
+A=1, Z=0
+Ideal I/Os
+_A=0, _Z=1
+Fault detected!
+
+Actual I/Os
+A=1, Z=0
+Ideal I/Os
+_A=1, _Z=0
+
+
+Z is stuck at 0 and A may also have faults or A is Sa1
+# exit 0

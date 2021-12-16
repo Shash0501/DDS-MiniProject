@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.exe" -prj "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_beh.prj" "work.oneInputNotStimulus" "work.glbl" 

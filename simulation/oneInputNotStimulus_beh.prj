@@ -1,0 +1,3 @@
+verilog work "oneInputNot.v"
+verilog work "oneInputNotStimulus.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"
