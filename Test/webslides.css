@@ -1,3 +1,4 @@
+
 /*!
  * Name: WebSlides
  * Version: 1.5.0
@@ -3796,4 +3797,27 @@ h5 {
 
 .detail-content {
   padding-top: 20px;
+}
+
+td{
+  text-align: center;
+}
+
+th{
+  
+  text-align: center !important;
+}
+
+dt{
+  font-size: x-large !important;
+}
+
+.wrong-cell{
+  background-color: red !important;
+  opacity: 60% !important;
+}
+
+.correct-cell{
+  background-color: green !important;
+  opacity: 60% !important ;
 }
