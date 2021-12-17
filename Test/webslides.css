@@ -3794,6 +3794,6 @@ h5 {
   font-weight: normal;
 }
 
-/* .scrollable {
-  overflow: scroll;
-} */
+.detail-content {
+  padding-top: 20px;
+}
