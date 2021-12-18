@@ -3831,3 +3831,15 @@ p{
 dd{
   text-align: justify;
 }
+
+.wrap p{
+  color:white;
+}
+
+.wrap dd{
+  color:white;
+}
+
+.wrap h1, h2, h3, h4, h5, dd, p, dt, li, td, th{
+  color:white;
+} 
