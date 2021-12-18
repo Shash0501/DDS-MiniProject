@@ -3814,10 +3814,12 @@ dt{
 
 .wrong-cell{
   background-color: red !important;
-  opacity: 60% !important;
+  
+  color: white !important;
 }
 
 .correct-cell{
   background-color: green !important;
-  opacity: 60% !important ;
+  
+  color: white !important;
 }

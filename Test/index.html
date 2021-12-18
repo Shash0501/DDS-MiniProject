@@ -15,8 +15,8 @@
     <main role="main">
         <article id="webslides" class="horizontal">
             <section class="bg-primary">
-                <span class="background dark"
-                    style="background-image:url('https://source.unsplash.com/oHrodCLNnU8/')"></span>
+                <span class="background-light"
+                    style="background-image:url('https://wallpaperaccess.com/full/1119975.jpg')"></span>
                 <div class="wrap aligncenter">
                     <h1 class="text-landing">DDS Mini-Project</h1>
                     <p class="text-symbols">* * * </p>
@@ -39,7 +39,7 @@
                     style="background-image:url('https://i.pinimg.com/originals/cc/98/80/cc988034b2c9e752f7986006e7e2aaf0.jpg'); opacity: 70%;" ></span>
                 <div class="wrap aligncenter" usedbyfluent="true">
                     <h2 style="color: white;"><strong usedbyfluent="true">AIM</strong></h2>
-                    <h5 style="color: white; font-weight: 500; font-size: x-large;" usedbyfluent="true">Analysis and Detection of SA0 and SA1 Faults on Basic
+                    <h5 style="color: white; font-weight: 500; font-size: x-large;" usedbyfluent="true">Analysis and Detection of Sa0 and Sa1 Faults on Basic
                         Logic Gates : AND, OR , NOT</h5>    
                 </div>
                 <!-- .end .wrap -->
@@ -48,7 +48,7 @@
             <!--3rd Slide-->
 
 
-            <section class="detail-content  " id = "section-66" style="padding: 0 380px; background-color: #659DBD; color: white;">
+            <section class="detail-content  " id = "section-66" style="padding: 0 380px; color: black;">
                 <h1 class="content-center" >Theory Involved</h1>
                 <br><br>
                 <h2>Logic Gates</h2>
@@ -121,7 +121,7 @@
                         If all the inputs to the OR gate are LOW then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
                         <img src="Assets/DDS/OR_GATE.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
                         
-                        ew
+                        
 
                             <h3 class="content-center">Q = A+B</h3>
                         </dd>
@@ -200,7 +200,7 @@
             <!--/3rd Slide-->
 
 
-            <section class="detail-content  " id = "section-66" style="padding: 0 380px; background-color: #659DBD; color: white;">
+            <section class="detail-content  " id = "section-66" style="padding: 0 380px;">
                 <h1 class="content-center" >Our Approach</h1>
                 <br><br>
                 
@@ -283,45 +283,46 @@
                             <p>We introduce faults in the simulation by using the force keyword. Like the name suggests, the forced value persists even if there is any subsequent attempt to change it. We declare two sets of variables:     (A, B, Z), the actual inputs and output and (_A, _B, _Z), the expected inputs and output.</p>
                             <p>We then compare the actual and expected output for all possible combinations of A and B and if they are unequal, we can safely say that there is some fault in the gate.</p>
                             <p>Based on the inputs and difference between actual and expected outputs, we try to deduce what might be the possible faults that exist in the gate. Let us again take the example of a 2 input OR gate.</p>
+                             <table class="table">
+                            <thead class="thead-dark" style="text-align: center;">
+                                <tr>
+                                
+                                <th scope="col" >A</th>
+                                <th scope="col">B</th>
+                                <th scope="col">A+B</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                
+                                <td>0</td>
+                                <td>0</td>
+                                <td class = "wrong-cell">0</td>
+                                </tr>
+                                <tr>
+                               
+                                <td>0</td>
+                                <td>1</td>
+                                <td class = "wrong-cell">0</td>
+                                </tr>
+                                <tr>
+                               
+                                <td>1</td>
+                                <td>0</td>
+                                <td class = "wrong-cell">0</td>
+                                </tr>
+
+                                <tr>
+                               
+                                <td>1</td>
+                                <td>1</td>
+                                <td class = "wrong-cell">0</td>
+                                </tr>
+                            </tbody>
+                            </table>
                             <p>In this case, the expected output for 0 1, 1 0 and 1 1 should have been 1, but the actual output comes out to be 0. So, either the output pin has a Sa0 fault with possible faults in the input pins as well or both the input pins have Sa0 faults with the output pin working properly. For different input/output sets, we can try to deduce the faults that might be present.</p>
                             <p>We can extend the same logic to the AND and NOT gates.</p>
-                            <table class="table">
-                            <thead class="thead-dark" style="text-align: center;">
-                                <tr>
-                                
-                                <th scope="col" >A</th>
-                                <th scope="col">B</th>
-                                <th scope="col">A+B</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                
-                                <td>0</td>
-                                <td>0</td>
-                                <td class = "wrong-cell">0</td>
-                                </tr>
-                                <tr>
-                               
-                                <td>0</td>
-                                <td>1</td>
-                                <td class = "wrong-cell">0</td>
-                                </tr>
-                                <tr>
-                               
-                                <td>1</td>
-                                <td>0</td>
-                                <td class = "wrong-cell">0</td>
-                                </tr>
-
-                                <tr>
-                               
-                                <td>1</td>
-                                <td>1</td>
-                                <td class = "wrong-cell">1</td>
-                                </tr>
-                            </tbody>
-                            </table>
+                           
                         </dd>
 
                 
@@ -330,130 +331,25 @@
                 
                     
 
-                    <dt> 
-                    OR Gate
-                    </dt>
-
-                    <dd>
-                        <p>The OR gate gives us a HIGH output if and only if at least one of the inputs to the OR gate is HIGH.
-                        If all the inputs to the OR gate are LOW then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
-                        <img src="Assets/DDS/OR_GATE.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
-                        
-                        <table class="table">
-                            <thead class="thead-dark" style="text-align: center;">
-                                <tr>
-                                
-                                <th scope="col" >A</th>
-                                <th scope="col">B</th>
-                                <th scope="col">A+B</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                
-                                <td>0</td>
-                                <td>0</td>
-                                <td>0</td>
-                                </tr>
-                                <tr>
-                               
-                                <td>0</td>
-                                <td>1</td>
-                                <td>1</td>
-                                </tr>
-                                <tr>
-                               
-                                <td>1</td>
-                                <td>0</td>
-                                <td>1</td>
-                                </tr>
-
-                                <tr>
-                               
-                                <td>1</td>
-                                <td>1</td>
-                                <td>1</td>
-                                </tr>
-                            </tbody>
-                            </table>
-
-                            <h3 class="content-center">Q = A+B</h3>
-
-                            <p></p>
-                        </dd>
-
-                            
-
-                    
-                        
-
-
-
-                    <dt>
-                    NOT Gate
-                    </dt>
-
-                    <dd>
-                        <p>The NOT gate gives us a HIGH output if and only if the input to the NOT gate is LOW.
-                        If the input to the NOT gate is HIGH then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
-                        <img src="Assets/DDS/NOT_GATE.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
-                        
-                       <table class="table">
-                            <thead class="thead-dark" style="text-align: center;">
-                                <tr>
-                                
-                                <th scope="col" >A</th>                                
-                                <th scope="col">NOT A</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                
-                                <td>0</td>
-                                <td>1</td>
-                                
-                                </tr>
-                                <tr>
-                               
-                                <td>1</td>
-                                <td>0</td>
-                               
-                                </tr>
-                               
-                            </tbody>
-                            </table>    
-
-                            <h3 class="content-center">Q = !A</h3>
-                            </dd>
-                    
-
-                    <dt>
-                         Stuck at fault
-                    </dt>
-
-                    <dd>
-                        When a signal, or gate output, is stuck at a 0 or 1 value, independent of the inputs to the circuit, the signal is said to be “stuck at” and the fault model used to describe this type error is called a “stuck at fault model”.
-                        <br><br>
-                         Stuck at faults occur when a line is permanently stuck to Vdd or ground giving a faulty output.
-                        <br><br>
-                         This line may be an input or output to any gate. Also this fault can be single or multiple stuck at faults.
-                        <br><br>
-                        
-                        A fault model is an engineering model of something that could go wrong in the construction or
-                        operation of a piece of equipment. From the model, the designer or user can then predict the
-                        consequences of this particular fault. Basic fault models in digital circuits include the
-                        stuck-at
-                        fault model, the bridging fault model, the transistor faults, the open fault model, the delay
-                        fault
-                        model, etc.
-                        If a circuit has n signal lines, there are potentially 2n stuck-at faults defined on the
-                        circuit.
-                        
-                     </dd>  
+                     
                 </dl>                                                 
                                                            
             </section>
-            
+
+            <section class="detail-content  " id = "section-66" style="padding: 0 380px;">
+                <h1 class="content-center" style="margin-bottom: 50px;">Conclusion</h1>
+                <p style="text-align: justify;">In a digital circuit, there may exist ‘stuck at’ faults, which may give rise to discrepancies between the expected and actual outputs. By trial and error, we tried to deduce the possible faults that might exist in the circuit, and the conditions which might lead to that particular output. We realised that for a particular set of input/output, we can compare and check whether a fault is present or not, however, we cannot necessarily specify the fault as explained above. We represent the same graphically, using the timing diagram feature available on Xilinx ISE Suite.</p>                                                 
+                                                           
+            </section>
+
+            <section class="detail-content  " id = "section-66" style="padding: 0 300px;">
+                <h1 class="content-center" style="margin-bottom: 50px;" >Acknowledgement</h1>
+                <p style="text-align: justify;">The purpose of this mini project was to understand the design and implementation of digital circuits using Xilinx ISE Suite and analysing the various possible ‘stuck at’ faults that may exist in the circuit. We are grateful to our professor Dr. Biswajit R Bhowmik for providing us with this opportunity to learn and explore a completely new domain of Computer 
+Science. We would also like to express our gratitude to the Department of Computer Science and Engineering for the same.</p>
+                                                           
+            </section>
+
+           
 
         </article>
     </main>
