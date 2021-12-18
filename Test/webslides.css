@@ -3824,22 +3824,17 @@ dt{
   color: white !important;
 }
 
-p{
-  text-align: justify;
-}
 
-dd{
-  text-align: justify;
-}
 
 .wrap p{
   color:white;
 }
 
-.wrap dd{
+.wrap dd, dt, h1, h2, h3, h4, h5{
   color:white;
 }
 
-.wrap h1, h2, h3, h4, h5, dd, p, dt, li, td, th{
-  color:white;
-} 
+.wrap dd, p{
+  font-weight: 400;
+  text-align: justify;
+}
