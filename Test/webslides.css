@@ -3838,3 +3838,85 @@ dt{
   font-weight: 400;
   text-align: justify;
 }
+
+.justify-content-center h1{
+  color: black;
+}
+
+
+
+
+label{
+  margin: 0;
+}
+
+#tables-container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.inputs-outputs{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  gap:50px;
+
+}
+
+.gate-selector{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: white;
+
+}
+
+.input-table{
+  display:flex;
+  gap: 20px;
+  
+}
+
+.input-table-column{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.radio-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;  
+
+}
+
+#section-5{
+  padding-right: 70px !important;
+  margin: 0;
+  height: 100vh;
+}
+
+.run-button{
+  background-color: gray;
+  height: min-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bg-danger{
+  background-color: red;
+
+}
+
+.bg-success{
+  background-color: green;
+
+}
+
