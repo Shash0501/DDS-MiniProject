@@ -1,0 +1,3 @@
+verilog work "twoInputOr.v"
+verilog work "twoInputOrStimulus.v"
+verilog work "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v"

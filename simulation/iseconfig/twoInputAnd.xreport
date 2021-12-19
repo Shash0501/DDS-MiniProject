@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2021-12-16T18:45:58</DateModified>
+  <DateModified>2021-12-17T14:00:29</DateModified>
   <ModuleName>twoInputAnd</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
   <SavedFilePath>/home/kid-116/Desktop/DDS-MiniProject/simulation/iseconfig/twoInputAnd.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>/home/kid-116/Desktop/DDS-MiniProject/simulation</ImplementationReportsDirectory>
+  <ImplementationReportsDirectory>/home/kid-116/Desktop/DDS-MiniProject/simulation/</ImplementationReportsDirectory>
   <DateInitialized>2021-12-16T18:30:13</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

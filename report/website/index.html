@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="webslides.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <main role="main">
+        <article id="webslides" class="horizontal">
+            <section class="bg-primary">
+                <span class="background-light" style="background-image:url('https://wallpaperaccess.com/full/1119975.jpg')"></span>
+                <div class="wrap aligncenter">
+                    <h1 class="text-landing">DDS Mini-Project</h1>
+                    <p class="text-symbols">* * *</p>
+                    <div class="wrap size-50">
+                        <h3 class="content-center">Group 1</h3>
+                        <hr>
+                        <ul class="text-rows content-center slide-bottom" style="list-style:none">
+                            <h6>Dibyam Kumar - 201CS270</h6>
+                            <h6>Mehul Todi - 201CS133</h6>
+                            <h6>Pratik Jallan - 201CS142</h6>
+                            <h6>Sathvik Hebbar - 201CS254</h6>
+                            <h6>Shashank SM - 201CS257</h6>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <section id="section-71" class="slide current" style="background-color: #659DBD;" usedbyfluent="true">
+                <span class="background anim" style="background-image:url('https://i.pinimg.com/originals/cc/98/80/cc988034b2c9e752f7986006e7e2aaf0.jpg'); opacity: 70%;" ></span>
+                <div class="wrap aligncenter" usedbyfluent="true">
+                    <h2 style="color: white;"><strong usedbyfluent="true">AIM</strong></h2>
+                    <h3>Project No. 1</h3>
+                    <h5 style="color: white; font-weight: 500; font-size: x-large;" usedbyfluent="true">Analysis and Detection of Sa0 and Sa1 Faults on Basic Logic Gates : AND, OR , NOT</h5>    
+                </div>
+            </section>
+            <!--3rd Slide-->
+            <section class="detail-content  bg-trans-dark" id = "section-66" style="padding: 20px 380px; color: black;">
+                <!-- <span class = "background" style="background-image:url('https://www.teahub.io/photos/full/257-2579448_wallpaper-gradient-blue-orange-linear-navy-dark-orange.jpg');"></span> -->
+                <div class="wrap">
+                    <h1 class="content-center" >Theory Involved</h1>
+                    <br><br>
+                    <h2>Logic Gates</h2>
+                    <p>It is an electronic circuit having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. There are different kinds of logic gates. The project involved the following logic gates</p>
+                    <dl>
+                        <dt>AND Gate</dt>
+                        <dd>
+                        <p>The AND gate gives us a HIGH output if and only if all the inputs to the AND gate are HIGH. If even one of the inputs to the AND gate is LOW then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
+                        <img src="assets/images/and_gate.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center"> 
+                        <table class="table">
+                            <thead class="thead-dark" style="text-align: center;">
+                                <tr>
+                                    <th scope="col" >A</th>
+                                    <th scope="col">B</th>
+                                    <th scope="col">A.B</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>0</td>
+                                    <td>1</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                </tr>
+                                <tr>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <h3 class="content-center">Q = A.B</h3>
+                        </dd>
+                        <dt>OR Gate</dt>
+                        <dd>
+                            <p>The OR gate gives us a HIGH output if and only if at least one of the inputs to the OR gate is HIGH. If all the inputs to the OR gate are LOW then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
+                            <img src="assets/images/or_gate.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
+                            <h3 class="content-center">Q = A+B</h3>
+                        </dd>
+                        <dt>NOT Gate</dt>
+                        <dd>
+                            <p>The NOT gate gives us a HIGH output if and only if the input to the NOT gate is LOW. If the input to the NOT gate is HIGH then the output will be LOW. The function can be extended to any number of inputs. The truth table and boolean expression are as follows:</p>
+                            <img src="assets/images/not_gate.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
+                            <table class="table">
+                                <thead class="thead-dark" style="text-align: center;">
+                                    <tr>
+                                        <th scope="col" >A</th>                                
+                                        <th scope="col">NOT A</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>1</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>0</td>                           
+                                    </tr>
+                                </tbody>
+                            </table>    
+                            <h3 class="content-center">Q = !A</h3>
+                        </dd>
+                        <dt>Stuck at Faults</dt>
+                        <dd>
+                            When a signal, or gate output, is stuck at a 0 or 1 value, independent of the inputs to the circuit, the signal is said to be “stuck at” and the fault model used to describe this type error is called a “stuck at fault model”.
+                            <br><br>
+                            Stuck at faults occur when a line is permanently stuck to Vdd or ground giving a faulty output. This line may be an input or output to any gate. Also this fault can be single or multiple stuck at faults.
+                            <br><br>
+                            <p>A fault model is an engineering model of something that could go wrong in the construction or operation of a piece of equipment. From the model, the designer or user can then predict the consequences of this particular fault. Basic fault models in digital circuits include the stuck-at fault model, the bridging fault model, the transistor faults, the open fault model, the delay fault model, etc. If a circuit has n signal lines, there are potentially 2n stuck-at faults defined on the
+                            circuit.</p>
+                        </dd>  
+                    </dl>
+                </div>
+            </section>
+            <section class="detail-content bg-trans-dark"  style="padding: 20px 380px;">
+                <div class="wrap">
+                    <h1 class="content-center" >Our Approach</h1>
+                    <br><br>
+                    <dl>
+                        <dd>
+                            <p>We used the Xilinx ISE Suite to create the simulation to test ‘stuck at’ faults in AND, OR and NOT gates. The entire simulation has been written in Verilog. Verilog is a hardware description language used to model electronic systems. It is most commonly used in the design and verification of digital circuits at the register-transfer level of abstraction.</p>
+                            <p>We created a block of Verilog code that implemented the functionality to execute AND, OR and NOT operations for different inputs. We used built-in Verilog keywords and functions to do so. For example, for a 2 input AND gate, we declare three variables, _A, _B  and _Z, and _Z is computed accordingly. The pseudo code looks something like this:
+                                <div class = "content-center" style = "text-align: left; font-family: monospace;">
+                                    reg _A;<br>
+                                    reg _B;<br>    
+                                    reg _Z;<br>
+                                    assign _Z = _A * _B;
+                                </div>
+                            </p>
+                            <p>The user can introduce faults in the gate and run simulations for all possible combinations using text fixtures. The ‘Fault Detection.xlsx’ file contains all the different possible inputs, faults and outputs.</p>
+                            <p>Theoretically, for any gate, we have 2^(2^n) outputs, where n is the number of inputs. Let us take the example of a two input OR gate. We have 16 different outputs for it, as shown in the Fault Detection file.</p>
+                            <p>However, a lot of the output combinations are impossible to recreate irrespective of the input/fault combination.</p>
+                            <table class="table">
+                                <thead class="thead-dark" style="text-align: center;">
+                                    <tr>
+                                        <th scope="col" >A</th>
+                                        <th scope="col">B</th>
+                                        <th scope="col">A+B</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td class = "correct-cell">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td class = "wrong-cell">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td class = "wrong-cell">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td class = "correct-cell">1</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>In this case, to get output as 0 for the inputs 0 and 1, we must either have Sa0 at the output pin or Sa0 for the second input pin. However, it cannot be either of them as, for the same set of faults, it is not possible to get output as 1 for inputs 1 and 1. We can extend the same for the input set 1 and 0. This is a redundant case.</p>
+                            <p>We can extend the same to the AND and NOT gate. For the valid output set, to denote presence of faults, we use ‘D’ to denote don’t care, ‘X’ for okay, ‘0’ for Sa0 and ‘1’ for Sa1. (A, B, Z) ⇔ (input1, input2, output).</p>
+                            <p>We introduce faults in the simulation by using the force keyword. Like the name suggests, the forced value persists even if there is any subsequent attempt to change it. We declare two sets of variables: (A, B, Z), the actual inputs and output and (_A, _B, _Z), the expected inputs and output.</p>
+                            <p>We then compare the actual and expected output for all possible combinations of A and B and if they are unequal, we can safely say that there is some fault in the gate.</p>
+                            <p>Based on the inputs and difference between actual and expected outputs, we try to deduce what might be the possible faults that exist in the gate. Let us again take the example of a 2 input OR gate.</p>
+                            <table class="table">
+                                <thead class="thead-dark" style="text-align: center;">
+                                    <tr>
+                                        <th scope="col" >A</th>
+                                        <th scope="col">B</th>
+                                        <th scope="col">A+B</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>0</td>
+                                        <td class = "correct-cell">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>0</td>
+                                        <td>1</td>
+                                        <td class = "wrong-cell">0</td>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>0</td>
+                                        <td class = "wrong-cell">0</td>
+                                    </tr>
+                                    <tr>                           
+                                        <td>1</td>
+                                        <td>1</td>
+                                        <td class = "wrong-cell">0</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <p>In this case, the expected output for 0 1, 1 0 and 1 1 should have been 1, but the actual output comes out to be 0. So, either the output pin has a Sa0 fault with possible faults in the input pins as well or both the input pins have Sa0 faults with the output pin working properly. For different input/output sets, we can try to deduce the faults that might be present.</p>
+                            <p>The possible faults that can be determined for the gate are logged in the console of the Xilinx simulation using the '$display' function. We can extend the same logic to the AND and NOT gates.</p>
+                            <img src="assets/images/fault_detection.png" style="width: 500px; display:block; margin-bottom: 20px;" class="content-center">
+                            <p>In the picture above it can be seen how the simulation predicted the faults which may be present in gate. It simulates the outputs for all possible combination of inputs and comparing it to the expected output, lists out the possible faults. For example, in this case, A had Sa0 fault and Z had Sa1 fault and the simulator rightly predicts "Atleast one of the lines is Sa1 and Z can't be Sa0"</p>
+                        </dd>
+                    </dl>
+                </div>
+            </section>
+            <section class="detail-content bg-trans-dark"  style="padding: 20px 380px;">
+                <div class="wrap">
+                    <h1>Running the Simulation</h1>
+                    <!-- <h2>Procedure</h2> -->
+                    <ul>
+                        <li>By default, the values of A and B are set to 0, the gate is set to AND and there are no faults present in any of the input/output lines.</li>
+                        <li>The user must choose the gate, the input line values and the faults present. Then, click on the 'RUN' button.
+                        </li>
+                        <li>If the output corresponding to the selected gate and inputs match with the expected output, the output is highlighted with a green background, else, it is displayed with a red background.</li>
+                        <li>For one input NOT gate, the user can only select the input for A, B is not considered. Similarly, the user cannot introduce a fault in the input line for B.</li>
+                        <li>The user can change the input dataset and again run the simulation. The previously computed output is stored until the page is refreshed, and hence can be used to compare different scenarios.</li>
+                    </ul>
+                </div>
+            </section>
+            <section class = "bg-trans-dark" style="color: white ; padding: 100px;">
+                <div class="inputs-outputs">
+                    <div>
+                        <h1><strong>Simulator</strong></h1>
+                        <h4><strong>Inputs:</strong></h4>
+                        <div class="gate-selector">
+                            <span>GATE:</span>
+                            <div class = "radio-text"><input autocomplete="off" type="radio" onclick="gate_radio_click(this)"  id="GAND" name="G" checked>
+                                <label for="GAND">AND<label>
+                            </div>
+                            <div class = "radio-text"> <input autocomplete="off" type="radio" onclick="gate_radio_click(this)"  id="GOR" name="G">
+                                <label for="GOR">OR</label>
+                            </div>
+                            <div class = "radio-text"><input autocomplete="off" type="radio" onclick="gate_radio_click(this)"  id="GNOT" name="G">
+                                <label for="GNOT">NOT</label>
+                            </div>
+                        </div>
+                        <br><br>
+                        <div class="input-table">
+                            <div class="input-table-column">
+                                <span>A:</span>
+                                <div class = "radio-text"><input type="radio" id="A0" name="A" checked> <label for="A0">0</label></div>
+                                <div class = "radio-text"><input type="radio" id="A1" name="A" > <label for="A1">1</label></div>
+                            </div>
+                            <div class="input-table-column">
+                                <span>B:</span>
+                                <div class = "radio-text"><input type="radio" id="B0" name="B"  checked> <label for="B0">0</label></div>
+                                <div class = "radio-text"><input type="radio" id="B1" name="B" > <label for="B1">1</label></div>
+                            </div>
+                            <div class="input-table-column">
+                                <span>Stuck at fault for A (S<sub>a</sub>):</span>
+                                <div class = "radio-text"><input type="radio" id="Sa1" name="Sa" > <label for="Sa1">1</label></div>
+                                <div class = "radio-text"><input type="radio" id="Sa0" name="Sa" > <label for="Sa0">0</label></div>
+                                <div class = "radio-text"><input type="radio" id="SaN" name="Sa"  checked> <label for="SaN">No fault</label></div>
+                            </div>
+                            <div class="input-table-column">
+                                <span>Stuck at fault for B (S<sub>b</sub>):</span>
+                                <div class = "radio-text"><input type="radio" id="Sb0" name="Sb"> <label for="Sb0">0</label></div>
+                                <div class = "radio-text"><input type="radio" id="Sb1" name="Sb" > <label for="Sb1">1</label></div>
+                                <div class = "radio-text"><input type="radio" id="SbN" name="Sb"  checked> <label for="SbN">No fault</label></div>
+                            </div>
+                            <div class="input-table-column  ">
+                                <span>Stuck at fault for Z (S<sub>z</sub>):</span>
+                                <div class = "radio-text"><input type="radio" id="Sz1" name="Sz" > <label for="Sz1">1</label></div>
+                                <div class = "radio-text"><input type="radio" id="Sz0" name="Sz" > <label for="Sz0">0</label></div>
+                                <div class = "radio-text"><input type="radio" id="SzN" name="Sz"  checked> <label for="SzN">No fault</label></div>
+                            </div>
+                        </div>
+                        <div><button class = "run-button" onclick="do_work()">Run</button></div>
+                    </div>
+                    <div class="output-table" >
+                        <h4><strong>Output Table:</strong></h4>
+                        <table id="table" class="table">
+                            <tr class="d-flex" style="color: white;">
+                                <th class="col-4" style="color: white;">GATE</th>
+                                <th class="col-4">A</th>
+                                <th class="col-5">B</th>
+                                <th class="col-5">Expected output (Z<sub>e</sub>)</th>
+                                <th class="col-5">Z</th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </section>
+            <section class="detail-content  " id = "section-66" style="padding: 0 380px;">
+                <span class = "background" style="background-image:url('https://www.teahub.io/photos/full/257-2579448_wallpaper-gradient-blue-orange-linear-navy-dark-orange.jpg');"></span>
+                <div class="wrap">
+                    <h1 class="content-center" style="margin-bottom: 50px; color: white;">Conclusion</h1>
+                    <p style="text-align: justify; color: white;">In a digital circuit, there may exist ‘stuck at’ faults, which may give rise to discrepancies between the expected and actual outputs. By trial and error, we tried to deduce the possible faults that might exist in the circuit, and the conditions which might lead to that particular output. We realised that for a particular set of input/output, we can compare and check whether a fault is present or not, however, we cannot necessarily specify the fault as explained above. We represent the same graphically, using the timing diagram feature available on Xilinx ISE Suite.</p>                                                 
+                </div>
+            </section>
+            <section class="detail-content  " id = "section-66" style="padding: 0 280px;">
+                <span class = "background" style="background-image:url('https://www.teahub.io/photos/full/257-2579448_wallpaper-gradient-blue-orange-linear-navy-dark-orange.jpg');"></span>
+                <div class="wrap">
+                    <h1 class="content-center" style="margin-bottom: 50px; color: white;" >Acknowledgement</h1>
+                    <p style="text-align: justify; color:white" >The purpose of this mini project was to understand the design and implementation of digital circuits using Xilinx ISE Suite and analysing the various possible ‘stuck at’ faults that may exist in the circuit. We are grateful to our professor Dr. Biswajit R Bhowmik for providing us with this opportunity to learn and explore a completely new domain of Computer Science. We would also like to express our gratitude to the Department of Computer Science and Engineering for the same.</p>
+                </div>
+            </section>
+        </article>
+    </main>
+    <script src="webslides.js"></script>
+    <script>
+        window.ws = new WebSlides();
+    </script>
+</body>
+</html>

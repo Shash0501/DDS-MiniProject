@@ -1,29 +1,31 @@
-Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.exe -prj /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_beh.prj work.oneInputNotStimulus work.glbl 
+Running: /opt/Xilinx/14.7/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -lib secureip -o /home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus_isim_beh.exe -prj /home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus_beh.prj work.twoInputOrStimulus work.glbl 
 ISim P.20131013 (signature 0xfbc00daa)
 Number of CPUs detected in this system: 8
 Turning on mult-threading, number of parallel sub-compilation jobs: 16 
 Determining compilation order of HDL files
-Analyzing Verilog file "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNot.v" into library work
-Analyzing Verilog file "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" into library work
-WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 73: Cannot omit port direction for function/task declarations
-WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 74: Cannot omit port direction for function/task declarations
-WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 75: Cannot omit port direction for function/task declarations
-WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 76: Cannot omit port direction for function/task declarations
-WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 98: Cannot omit port direction for function/task declarations
+Analyzing Verilog file "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOr.v" into library work
+Analyzing Verilog file "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" into library work
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 98: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 99: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 100: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 101: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 102: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 103: Cannot omit port direction for function/task declarations
+WARNING:HDLCompiler:1830 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 133: Cannot omit port direction for function/task declarations
 Analyzing Verilog file "/opt/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
 Starting static elaboration
-WARNING:HDLCompiler:1330 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 72: Function check has no return value assignment
-WARNING:HDLCompiler:1330 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 97: Function detectFault has no return value assignment
+WARNING:HDLCompiler:1330 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 97: Function check has no return value assignment
+WARNING:HDLCompiler:1330 - "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 132: Function detectFault has no return value assignment
 Completed static elaboration
 Fuse Memory Usage: 82936 KB
-Fuse CPU Usage: 880 ms
-Compiling module oneInputNot
-Compiling module oneInputNotStimulus
+Fuse CPU Usage: 910 ms
+Compiling module twoInputOr
+Compiling module twoInputOrStimulus
 Compiling module glbl
 Time Resolution for simulation is 1ps.
 Waiting for 1 sub-compilation(s) to finish...
 Compiled 3 Verilog Units
-Built simulation executable /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.exe
-Fuse Memory Usage: 1167424 KB
-Fuse CPU Usage: 890 ms
-GCC CPU Usage: 190 ms
+Built simulation executable /home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus_isim_beh.exe
+Fuse Memory Usage: 1167584 KB
+Fuse CPU Usage: 940 ms
+GCC CPU Usage: 690 ms

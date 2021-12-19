@@ -1,5 +1,6 @@
 ISim log file
-Running: /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus_isim_beh.wdb 
+Running: /home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb /home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim1.wdb.
 ISim P.20131013 (signature 0xfbc00daa)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -13,16 +14,27 @@ Simulator is doing circuit initialization process.
 Finished circuit initialization process.
 
 Actual I/Os
-A=1, Z=0
+A=0, B=0, Z=1
 Ideal I/Os
-_A=0, _Z=1
+_A=0, _B=0, _Z=0
 Fault detected!
 
 Actual I/Os
-A=1, Z=0
+A=0, B=1, Z=1
 Ideal I/Os
-_A=1, _Z=0
+_A=0, _B=1, _Z=1
+
+Actual I/Os
+A=0, B=0, Z=1
+Ideal I/Os
+_A=1, _B=0, _Z=1
+
+Actual I/Os
+A=0, B=1, Z=1
+Ideal I/Os
+_A=1, _B=1, _Z=0
+Fault detected!
 
 
-Z is stuck at 0 and A may also have faults or A is Sa1
+Atleast one of the lines is Sa1 and Z can't be Sa0
 # exit 0

@@ -1,1 +1,2 @@
 xst -intstyle ise -ifn "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputAnd.xst" -ofn "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputAnd.syr" 
+xst -intstyle ise -ifn "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputAnd.xst" -ofn "/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputAnd.syr" 

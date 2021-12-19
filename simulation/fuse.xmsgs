@@ -5,25 +5,31 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
-<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 73: Cannot omit port direction for function/task declarations
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 98: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 74: Cannot omit port direction for function/task declarations
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 99: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 75: Cannot omit port direction for function/task declarations
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 100: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 76: Cannot omit port direction for function/task declarations
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 101: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 98: Cannot omit port direction for function/task declarations
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 102: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1330" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 72: Function <arg fmt="%s" index="1">check</arg> has no return value assignment
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 103: Cannot omit port direction for function/task declarations
 </msg>
 
-<msg type="warning" file="HDLCompiler" num="1330" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/oneInputNotStimulus.v" Line 97: Function <arg fmt="%s" index="1">detectFault</arg> has no return value assignment
+<msg type="warning" file="HDLCompiler" num="1830" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 133: Cannot omit port direction for function/task declarations
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1330" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 97: Function <arg fmt="%s" index="1">check</arg> has no return value assignment
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1330" delta="unknown" >"/home/kid-116/Desktop/DDS-MiniProject/simulation/twoInputOrStimulus.v" Line 132: Function <arg fmt="%s" index="1">detectFault</arg> has no return value assignment
 </msg>
 
 </messages>

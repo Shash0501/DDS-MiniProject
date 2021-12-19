@@ -5,14 +5,14 @@ Parameter TMPDIR set to xst/projnav.tmp
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.15 secs
+Total CPU time to Xst completion: 0.03 secs
  
 --> 
 Reading design: twoInputAnd.prj
@@ -274,13 +274,13 @@ Cross Clock Domains Report:
 =========================================================================
 
 
-Total REAL time to Xst completion: 9.00 secs
-Total CPU time to Xst completion: 5.24 secs
+Total REAL time to Xst completion: 6.00 secs
+Total CPU time to Xst completion: 4.93 secs
  
 --> 
 
 
-Total memory usage is 493828 kilobytes
+Total memory usage is 493856 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

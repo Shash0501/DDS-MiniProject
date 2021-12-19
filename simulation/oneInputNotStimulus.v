@@ -46,7 +46,7 @@ module oneInputNotStimulus;
 	
 		// Introducing faults
 		force A = 1; // Sa1 fault at A
-		// force Z = 1; // Sa1 fault at Z
+		force Z = 1; // Sa1 fault at Z
 		// force A = 0; // Sa0 fault at A
 		// force Z = 0; // Sa0 fault at Z
 		
