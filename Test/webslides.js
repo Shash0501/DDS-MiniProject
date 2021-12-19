@@ -3220,7 +3220,7 @@ function do_work() {
                         <th class="col-4">${a}</th>
                         <th class="col-5">X</th>
                         <th class="col-5">${z}</th>
-                        <th class="col-5">${sz}</th>
+                        <th class="col-5 ${sz==z ? "bg-success" : "bg-danger"}">${sz}</th>
                     </tr> `
   }
 }
